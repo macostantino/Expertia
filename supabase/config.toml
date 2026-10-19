@@ -1,0 +1,7 @@
+project_id = "expertia"
+
+[functions.gcal-webhook]
+verify_jwt = false      # lo llama Google; se valida el token del canal
+
+[functions.gcal-oauth-callback]
+verify_jwt = false      # redirect del navegador; se valida `state` firmado
